@@ -1,0 +1,90 @@
+[[package]]
+category = "main"
+description = "Screen-scraping library"
+name = "beautifulsoup4"
+optional = false
+python-versions = "*"
+version = "4.8.2"
+
+[package.dependencies]
+soupsieve = ">=1.2"
+
+[[package]]
+category = "main"
+description = "http GET dict"
+name = "get"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+query_string = "*"
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "http POST dict"
+name = "post"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "replace '__all__' with '@public.add' decorator"
+name = "public"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "get url query string dict"
+name = "query-string"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+public = "*"
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "http REQUEST (GET+POST) dict"
+name = "request"
+optional = false
+python-versions = "*"
+version = "2019.4.13"
+
+[package.dependencies]
+get = "*"
+post = "*"
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "A modern CSS selector implementation for Beautiful Soup."
+name = "soupsieve"
+optional = false
+python-versions = "*"
+version = "1.9.5"
+
+[metadata]
+content-hash = "5e2a50c1a21216ef5e25a34147086dff1558c0d7dd3a06066bad77fc45fe1a57"
+python-versions = "^3.7"
+
+[metadata.hashes]
+beautifulsoup4 = ["05fd825eb01c290877657a56df4c6e4c311b3965bda790c613a3d6fb01a5462a", "9fbb4d6e48ecd30bcacc5b63b94088192dcda178513b2ae3c394229f8911b887", "e1505eeed31b0f4ce2dbb3bc8eb256c04cc2b3b72af7d551a4ab6efd5cbe5dae"]
+get = ["688268840f923255932154a52bdd40ffac467de4126835c43846e9e6f112844c"]
+post = ["8fd57fb16f2c90ef4a76b04b8701c4db8ded170e53fac9514b5ea0272da5d36f"]
+public = ["e1436a8a99693a9849dfe40b9158f3837b7c309c163b2d3f5b8e9fce23876db1"]
+query-string = ["bb24e4f58849ef6f8219b2446c2bed076d86c97720ae9c3ae918625807394ca8"]
+request = ["6297b53c29a4928f7735034df2ab60aa1c7c044df989f605a81b7dc2d3713732"]
+soupsieve = ["bdb0d917b03a1369ce964056fc195cfdff8819c40de04695a80bc813c3cfa1f5", "e2c1c5dee4a1c36bcb790e0fabd5492d874b8ebd4617622c4f6a731701060dda"]
